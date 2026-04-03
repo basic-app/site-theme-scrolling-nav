@@ -9,6 +9,6 @@
     "require": {
         "basic-app/publisher": "*",
         "basic-app/site": "*",
-        "basic-app/theme-bootstrap5"
+        "basic-app/theme-bootstrap5": "*"
     }
 }
