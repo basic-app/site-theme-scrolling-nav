@@ -3,7 +3,7 @@
  * @author Basic App Dev Team
  * @license MIT
  */
-namespace BasicApp\Site\Themes\ScrollingNav\Publishers;
+namespace BasicApp\SiteThemeScrollingNav\Publishers;
 
 use BasicApp\Publisher\Publisher as BasePublisher;
 
