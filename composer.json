@@ -8,6 +8,7 @@
     },
     "require": {
         "basic-app/publisher": "*",
-        "basic-app/site": "*"
+        "basic-app/site": "*",
+        "basic-app/theme-bootstrap5"
     }
 }
