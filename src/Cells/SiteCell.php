@@ -6,8 +6,9 @@
 namespace BasicApp\SiteThemeScrollingNav\Cells;
 
 use BasicApp\Site\Interfaces\SiteCellInterface;
+use BasicApp\ThemeBootstrap5\Cells\Bootstrap5Cell;
 
-class SiteCell implements SiteCellInterface
+class SiteCell extends Bootstrap5Cell implements SiteCellInterface
 {
 	public function layout(array $params = []) : string
 	{
