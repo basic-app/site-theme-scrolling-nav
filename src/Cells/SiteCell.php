@@ -8,16 +8,11 @@ class SiteCell implements SiteCellInterface
 {
 	public function layout(array $params = []) : string
 	{
-		return view('BasicApp\SiteThemeScrollingNav\layout', $params);
+		return view('BasicApp\SiteThemeScrollingNav\layout', ['params' => $params]);
 	}
 	
-	public function index(array $params = []) : string
-	{
-		return view('BasicApp\SiteThemeScrollingNav\index', $params);
-	}
-
 	public function section(array $params = []) : string
 	{
-		return view('BasicApp\SiteThemeScrollingNav\index', $params);
+		return view('BasicApp\SiteThemeScrollingNav\section', ['params' => $params]);
 	}
 } 

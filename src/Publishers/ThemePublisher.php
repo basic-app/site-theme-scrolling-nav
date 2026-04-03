@@ -12,7 +12,7 @@ class ThemePublisher extends BasePublisher
 
     protected $source = VENDORPATH . 'basic-app/site-theme-scrolling-nav/assets/';
 
-    protected $destination = FCPATH . 'themes/site-scroling-nav/';
+    protected $destination = FCPATH . 'themes/site-scrolling-nav/';
 
     protected $createDestination = true;
 
