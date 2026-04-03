@@ -18,7 +18,7 @@ class ThemePublisher extends BasePublisher
 
     public function publish(): bool
     {
-        helper('filesystem');
+        helper(['filesystem']);
 
         if (count(directory_map($this->destination)) > 0)
         {
