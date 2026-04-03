@@ -1,0 +1,12 @@
+{
+    "name": "basic-app/site-theme-scrolling-nav",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BasicApp\\Site\\Themes\\ScrollingNav\\": "src/"
+        }
+    },
+    "require": {
+        "basic-app/publisher": "*"
+    }
+}
