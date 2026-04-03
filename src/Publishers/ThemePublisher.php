@@ -14,6 +14,8 @@ class ThemePublisher extends BasePublisher
 
     protected $destination = FCPATH . 'themes/site-scroling-nav/';
 
+    protected $createDestination = true;
+
     public function publish(): bool
     {
         helper('filesystem');
