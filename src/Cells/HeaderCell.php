@@ -11,8 +11,7 @@ class HeaderCell extends Cell
 {
     public $title = 'Welcome to Scrolling Nav';
     public $description = 'A functional Bootstrap 5 boilerplate for one page scrolling websites';
-    public $actionLabel = 'Start scrolling!';
-    public $actionUrl = '#index';
+    public $backgroundImage = null;
 
     protected string $view = VENDORPATH . 'basic-app/site-theme-scrolling-nav/templates/header.php';
 }
