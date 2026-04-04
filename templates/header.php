@@ -17,9 +17,6 @@ $backgroundImage = $backgroundImage ?? base_url('themes/site-scrolling-nav/image
     <div class="container px-4 text-center">
         <h1 class="fw-bolder"><?= $title;?></h1>
         <p class="lead"><?= $description;?></p>
-        <?php
-        /*
-        <a class="btn btn-lg btn-light" href=""></a>
-        */?>
+        <?php /* <a class="btn btn-lg btn-light" href=""></a> */?>
     </div>
 </header>
