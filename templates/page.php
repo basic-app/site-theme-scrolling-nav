@@ -4,9 +4,9 @@
         <div class="row gx-4 justify-content-center">
             <div class="col-lg-8">
                 <?php if($title):?>
-                    <h2><?= esc($title);?></h2>
+                    <h2><?= $title;?></h2>
                 <?php endif;?>
-                <?php if($title):?>
+                <?php if($content):?>
                     <div class="lead"><?= $content;?></div>
                 <?php endif;?>
             </div>

@@ -1,7 +1,7 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container px-4">
-        <a class="navbar-brand" href="<?= $baseUrl;?>"><?= $siteName;?></a>
+        <a class="navbar-brand" href="<?= esc($baseUrl);?>"><?= $siteName;?></a>
         <button class="navbar-toggler" 
             type="button" 
             data-bs-toggle="collapse" 
@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 <?php foreach($items as $key => $value):?>
-                    <li class="nav-item"><a class="nav-link" href="<?= esc($value['url']);?>"><?= esc($value['label']);?></a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= esc($value['url']);?>"><?= $value['label'];?></a></li>
                 <?php endforeach;?>
             </ul>
         </div>
