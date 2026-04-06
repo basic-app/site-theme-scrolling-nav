@@ -7,7 +7,7 @@ namespace BasicApp\SiteThemeScrollingNav\Cells;
 
 use CodeIgniter\View\Cells\Cell;
 
-class LayoutCell extends Cell
+class SiteLayoutCell extends Cell
 {
     public $title = 'Scrolling Nav - Start Bootstrap Template';
     public $locale = 'en';

@@ -7,7 +7,7 @@ namespace BasicApp\SiteThemeScrollingNav\Cells;
 
 use CodeIgniter\View\Cells\Cell;
 
-class NavCell extends Cell
+class SiteNavCell extends Cell
 {
     public $siteName = 'Start Bootstrap';
     

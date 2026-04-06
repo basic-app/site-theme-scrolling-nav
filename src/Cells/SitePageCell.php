@@ -7,7 +7,7 @@ namespace BasicApp\SiteThemeScrollingNav\Cells;
 
 use CodeIgniter\View\Cells\Cell;
 
-class PageCell extends Cell
+class SitePageCell extends Cell
 {
     public $title;
 

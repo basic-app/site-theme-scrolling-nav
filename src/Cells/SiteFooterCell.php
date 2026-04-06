@@ -7,7 +7,7 @@ namespace BasicApp\SiteThemeScrollingNav\Cells;
 
 use CodeIgniter\View\Cells\Cell;
 
-class FooterCell extends Cell
+class SiteFooterCell extends Cell
 {
     public $copyright = 'Copyright &copy; Your Website 2023';
 

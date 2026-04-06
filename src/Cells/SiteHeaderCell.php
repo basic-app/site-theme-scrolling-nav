@@ -7,7 +7,7 @@ namespace BasicApp\SiteThemeScrollingNav\Cells;
 
 use CodeIgniter\View\Cells\Cell;
 
-class HeaderCell extends Cell
+class SiteHeaderCell extends Cell
 {
     public $title = 'Welcome to Scrolling Nav';
     public $description = 'A functional Bootstrap 5 boilerplate for one page scrolling websites';
